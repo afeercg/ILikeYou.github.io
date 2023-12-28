@@ -1,0 +1,101 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3aac8;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#noButton {
+    position: absolute;
+    left: 60%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s;
+    background-color: #FFB6C1;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    border: .5px solid #fff;
+}
+
+#yesButton {
+    position: absolute;
+    right: 60%;
+    top: 80%;
+    transform: translate(50%, -50%);
+    background-color: #FFB6C1;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    border: .5px solid #fff;
+}
+
+.ask {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #ffb6c1;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+}
+
+#urvishPatel {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+.urvishPatel>a {
+    text-decoration: none;
+}
+
+.urvishPatel>a>span {
+    font-weight: bolder;
+}
